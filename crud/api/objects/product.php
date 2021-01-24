@@ -27,7 +27,7 @@
     ORDER BY
         p.created DESC";
 
-// prepare query statement
+
 $stmt = $this->conn->prepare($query);
 
 // execute query
